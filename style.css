@@ -1,0 +1,113 @@
+.grid1{
+    display: grid;
+    grid-template-columns: repeat(3,30vw);
+    grid-template-rows: min-content;
+    justify-content: center;
+    align-content: center;
+    grid-template-areas: 
+        "publicidad publicidad boton";
+    grid-gap: 10px;
+    margin-bottom: 20px;
+}
+
+.grid2{
+    display: grid;
+    grid-template-columns: repeat(3,30vw);
+    grid-template-rows: repeat(7,30vw);
+    justify-content: center;
+    align-content: center;
+    grid-template-areas: 
+        "big1 big1 small1"
+        "big1 big1 small2"
+        "small3 big2 big2"
+        "small4 big2 big2"
+        "big3 big3 small5"
+        "big3 big3 small6";
+    grid-gap: 10px;
+}
+
+.publicidad{
+    grid-area: publicidad;
+}
+
+.boton{
+    grid-area: boton;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img{
+}
+
+.big1{
+    grid-area: big1;
+    background-color: gainsboro;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.big2{
+    grid-area: big2;
+    background-color: gainsboro;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.big3{
+    grid-area: big3;
+    background-color: gainsboro;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.small1{
+    grid-area: small1;
+    background-color: gainsboro;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.small2{
+    grid-area: small2;
+    background-color: gainsboro;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.small3{
+    grid-area: small3;
+    background-color: gainsboro;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.small4{
+    grid-area: small4;
+    background-color: gainsboro;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.small5{
+    grid-area: small5;
+    background-color: gainsboro;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.small6{
+    grid-area: small6;
+    background-color: gainsboro;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
